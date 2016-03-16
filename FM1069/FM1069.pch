@@ -1,0 +1,22 @@
+//
+//  QunChangMob.pch
+//  QunChangMob
+//
+//  Created by qiangli on 15/6/5.
+//  Copyright (c) 2015年 dooban. All rights reserved.
+//
+
+#ifndef QunChangMob_QunChangMob_pch
+#define QunChangMob_QunChangMob_pch
+
+//#ifdef DEBUG
+//#define NSLog(...)
+//#define debugMethod()
+//#endif
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "GlobeDefine.h"
+#endif
