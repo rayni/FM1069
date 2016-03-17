@@ -16,11 +16,30 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="En8-a4-hyG">
+                                <rect key="frame" x="130" y="121" width="252" height="258"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="252" id="Vu4-Tk-mwr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="En8-a4-hyG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VHI-Bg-X3x"/>
+                            <constraint firstItem="En8-a4-hyG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mk7-dY-9Xo"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textLabel" destination="En8-a4-hyG" id="8ST-vK-7QN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="335"/>
         </scene>
     </scenes>
 </document>

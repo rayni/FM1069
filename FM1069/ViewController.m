@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "InfoListRequest.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
 
 @end
 
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    InfoListRequest *request = [InfoListRequest request];
+    [request startPostRequestWithFinishedBlock:^(AFHTTPRequestOperation *operation, QCResponseEntity *responseObject) {
+        NSLog(@"--------");
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

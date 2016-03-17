@@ -26,6 +26,7 @@
 		778F04EA1C9987AF00AEDFEC /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F04DF1C9987AF00AEDFEC /* AFURLRequestSerialization.m */; };
 		778F04EB1C9987AF00AEDFEC /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F04E11C9987AF00AEDFEC /* AFURLResponseSerialization.m */; };
 		778F04EC1C9987AF00AEDFEC /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F04E31C9987AF00AEDFEC /* AFURLSessionManager.m */; };
+		778F04F21C998BE900AEDFEC /* InfoListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F04F11C998BE900AEDFEC /* InfoListRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,8 @@
 		778F04E31C9987AF00AEDFEC /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		778F04ED1C99881B00AEDFEC /* GlobeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobeDefine.h; sourceTree = "<group>"; };
 		778F04EE1C99898000AEDFEC /* FM1069.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FM1069.pch; sourceTree = "<group>"; };
+		778F04F01C998BE900AEDFEC /* InfoListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoListRequest.h; sourceTree = "<group>"; };
+		778F04F11C998BE900AEDFEC /* InfoListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoListRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,7 @@
 				778F04CB1C99879D00AEDFEC /* QCRequest.m */,
 				778F04CC1C99879D00AEDFEC /* QCResponseEntity.h */,
 				778F04CD1C99879D00AEDFEC /* QCResponseEntity.m */,
+				778F04EF1C998B6900AEDFEC /* RequestForNews */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -247,6 +251,15 @@
 				778F04E31C9987AF00AEDFEC /* AFURLSessionManager.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		778F04EF1C998B6900AEDFEC /* RequestForNews */ = {
+			isa = PBXGroup;
+			children = (
+				778F04F01C998BE900AEDFEC /* InfoListRequest.h */,
+				778F04F11C998BE900AEDFEC /* InfoListRequest.m */,
+			);
+			path = RequestForNews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,6 +404,7 @@
 				778F04E51C9987AF00AEDFEC /* AFHTTPRequestOperationManager.m in Sources */,
 				778F04E81C9987AF00AEDFEC /* AFSecurityPolicy.m in Sources */,
 				778F04931C99210B00AEDFEC /* main.m in Sources */,
+				778F04F21C998BE900AEDFEC /* InfoListRequest.m in Sources */,
 				778F04CE1C99879D00AEDFEC /* QCRequest.m in Sources */,
 				778F04E61C9987AF00AEDFEC /* AFHTTPSessionManager.m in Sources */,
 			);
