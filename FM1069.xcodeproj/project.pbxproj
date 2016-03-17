@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		777530A21C9AE75100076BFD /* FMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 777530A11C9AE75100076BFD /* FMTabBarViewController.m */; };
 		778F04931C99210B00AEDFEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F04921C99210B00AEDFEC /* main.m */; };
 		778F04961C99210B00AEDFEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F04951C99210B00AEDFEC /* AppDelegate.m */; };
-		778F04991C99210B00AEDFEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F04981C99210B00AEDFEC /* ViewController.m */; };
 		778F049C1C99210B00AEDFEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778F049A1C99210B00AEDFEC /* Main.storyboard */; };
 		778F049E1C99210B00AEDFEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778F049D1C99210B00AEDFEC /* Assets.xcassets */; };
 		778F04A11C99210B00AEDFEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778F049F1C99210B00AEDFEC /* LaunchScreen.storyboard */; };
@@ -47,12 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		777530A01C9AE75100076BFD /* FMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTabBarViewController.h; sourceTree = "<group>"; };
+		777530A11C9AE75100076BFD /* FMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTabBarViewController.m; sourceTree = "<group>"; };
 		778F048E1C99210B00AEDFEC /* FM1069.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FM1069.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778F04921C99210B00AEDFEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		778F04941C99210B00AEDFEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		778F04951C99210B00AEDFEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		778F04971C99210B00AEDFEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		778F04981C99210B00AEDFEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		778F049B1C99210B00AEDFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		778F049D1C99210B00AEDFEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		778F04A01C99210B00AEDFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -147,8 +147,8 @@
 				778F04C91C99393000AEDFEC /* UI */,
 				778F04941C99210B00AEDFEC /* AppDelegate.h */,
 				778F04951C99210B00AEDFEC /* AppDelegate.m */,
-				778F04971C99210B00AEDFEC /* ViewController.h */,
-				778F04981C99210B00AEDFEC /* ViewController.m */,
+				777530A01C9AE75100076BFD /* FMTabBarViewController.h */,
+				777530A11C9AE75100076BFD /* FMTabBarViewController.m */,
 				778F049A1C99210B00AEDFEC /* Main.storyboard */,
 				778F049D1C99210B00AEDFEC /* Assets.xcassets */,
 				778F049F1C99210B00AEDFEC /* LaunchScreen.storyboard */,
@@ -393,11 +393,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				778F04E91C9987AF00AEDFEC /* AFURLConnectionOperation.m in Sources */,
+				777530A21C9AE75100076BFD /* FMTabBarViewController.m in Sources */,
 				778F04E41C9987AF00AEDFEC /* AFHTTPRequestOperation.m in Sources */,
 				778F04E71C9987AF00AEDFEC /* AFNetworkReachabilityManager.m in Sources */,
 				778F04EC1C9987AF00AEDFEC /* AFURLSessionManager.m in Sources */,
 				778F04EA1C9987AF00AEDFEC /* AFURLRequestSerialization.m in Sources */,
-				778F04991C99210B00AEDFEC /* ViewController.m in Sources */,
 				778F04EB1C9987AF00AEDFEC /* AFURLResponseSerialization.m in Sources */,
 				778F04CF1C99879D00AEDFEC /* QCResponseEntity.m in Sources */,
 				778F04961C99210B00AEDFEC /* AppDelegate.m in Sources */,
